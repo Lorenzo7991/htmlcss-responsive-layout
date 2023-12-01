@@ -2,7 +2,12 @@
 /* ******************************************************** */
 
 /* * Fixed viewport 370px */
-@media screen and (max-width: 371px) {
+@media screen and (min-width: 370px) {
+
+    .responsive-hidden-title {
+        display: none;
+    }
+   
     .responsive-hidden-advertise {
         display: none;
     }
@@ -10,20 +15,26 @@
     .responsive-hidden-items {
         display: none;
     }
+    
    
 }
 
-@media screen and (max-width: 991px) {
-    .responsive-hidden-items {
-        display: none;
+
+@media screen and (min-width: 768px) {
+    .responsive-hidden-title {
+        display: contents;
     }
+    .responsive-hidden-advertise {
+        display: contents;
+    }
+    
 }
 
 /** Min-widith rules */
 /* ******************************************************** */
 
 /* * Fixed viewport 768px */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 
     .main-container {
         padding: 30px;
@@ -68,5 +79,7 @@
     .social-btn{
         padding: 8px 35px;
     }
-
-  
+    .responsive-hidden-items {
+        display: contents;
+    }
+    
