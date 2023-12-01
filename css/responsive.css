@@ -1,10 +1,26 @@
+/** Max-widith rules */
+/* ******************************************************** */
+
 /* * Fixed viewport 370px */
 @media screen and (max-width: 371px) {
+    .responsive-hidden-advertise {
+        display: none;
+    }
+    
+    .responsive-hidden-items {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 991px) {
     .responsive-hidden-items {
         display: none;
     }
 }
 
+/** Min-widith rules */
+/* ******************************************************** */
 
 /* * Fixed viewport 768px */
 @media screen and (min-width: 768px) {
@@ -29,3 +45,28 @@
         border-radius: 20px;
     }
 }
+
+/* * Fixed viewport 992+ */
+@media screen and (min-width: 992px){
+    .section-video-info{
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+
+    .section-recipe-info{
+        width: 30%;
+        padding-bottom: 30px;
+    }
+    
+    .section-video{
+        width: 70%;
+    }
+    .generality-list-structure{
+        display: contents;
+    }
+    
+    .social-btn{
+        padding: 8px 35px;
+    }
+
+  

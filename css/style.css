@@ -127,6 +127,11 @@ ul {
     padding-bottom: 30px;
 }
 
+.section-video{
+    height: 300px;
+}
+
+
 /* * Main - Recipe info container rules */
 .container-info-recipe {
     padding: 10px;
@@ -194,6 +199,14 @@ ul {
     padding: 15px 15px;
     border-radius: 50%;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.social-text{
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    padding-left: 5px;
+
 }
 
 /** Social icons color */
