@@ -1,78 +1,72 @@
 /* * Css RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* * Generics */
-body{
+body {
     font-family: 'Helvetica Neue', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
 
 /* * Utilities */
-.primary-container{
+.primary-container {
     width: 100%;
     margin: 0 auto;
+    padding: 15px;
 
-/* ! Temporary rules */
-  border-width: 0 2px; 
-  border-style: solid;
-  border-color:  red;
+    /* ! Temporary rules */
+    border-width: 0 2px;
+    border-style: solid;
+    border-color: red;
 }
 
-.main-container{
-    padding: 10px;
+.main-container {
+    padding: 15px;
 }
 
-.btn{
+.btn {
     padding: 5px 10px;
     border: 1px solid transparent;
     display: inline-block;
     margin: 0 5px;
 
-    /* ! Temporary rules */
-    background-color: lightblue;
+
 }
 
-
-
-
-
-
 /* * Header section */
-.header-title{
-font-family: 'Nerko One', cursive;
+.header-title {
+    font-family: 'Nerko One', cursive;
     color: rgb(247, 151, 46);
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 10px 0;
 }
 
 
-
 /* * Main section */
-.main-bg-color{
+.main-bg-color {
     background-color: rgb(246, 245, 243);
 }
 
 /* * Main - Header section title rules */
-.header-section-title{
+.header-section-title {
     color: rgb(213, 192, 173);
     font-size: 1rem;
     font-weight: lighter;
@@ -81,20 +75,20 @@ font-family: 'Nerko One', cursive;
 }
 
 /* * Main - Recipe title/rating section rules */
-.recipe-title-rating{
+.recipe-title-rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 15px
 }
 
-.recipe-title{
-    color: rgb(78, 57, 105) ;
+.recipe-title {
+    color: rgb(78, 57, 105);
     font-size: 1.5rem;
     font-weight: 800;
 }
 
-.recipe-rating{
+.recipe-rating {
     display: flex;
     align-items: center;
     line-height: 100%;
@@ -102,54 +96,58 @@ font-family: 'Nerko One', cursive;
     font-size: 1.2rem;
 }
 
-.fa-color{
+.fa-color {
     color: rgb(247, 151, 46);
 }
 
-.user-rating{
+.user-rating {
     font-weight: 800;
 }
+
 /* * Main - Recipe rating btn "RATE" rules */
-.rating-btn{
+.rating-btn {
     padding: 5px 12px;
     background-color: rgb(247, 151, 46);
     border-radius: 25px;
 
 }
-.rate-link{
+
+.rate-link {
     color: white;
     font-weight: 700;
     font-size: 0.9rem;
 }
 
 /* * Main - Recipe info section */
-.section-video-info{
+.section-video-info {
     background-color: white;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    padding-bottom: 30px;
 }
 
 /* * Main - Recipe info container rules */
-.container-info-recipe{
+.container-info-recipe {
     padding: 10px;
-    
+
 }
 
-.kcal-infoplus-dietary-container{
-    background-color: rgb(246, 245, 243) ;
+.kcal-infoplus-dietary-container {
+    background-color: rgb(246, 245, 243);
     margin: 20px;
 
 }
 
-.kcal-infoplus{
+.kcal-infoplus {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
 }
+
 /* * Top side info recipe rules */
-.like-btn-kcal{
+.like-btn-kcal {
     color: white;
     background-color: rgb(123, 105, 162);
     border-radius: 5px;
@@ -158,23 +156,55 @@ font-family: 'Nerko One', cursive;
     font-weight: 700;
 }
 
-.plus-info{
+.plus-info {
     color: rgb(247, 151, 46);
     font-size: 1.2rem;
 }
+
 /* * Bottom side info recipe rules */
-.dietary-regime{
+.dietary-regime {
     padding-top: 10px;
     font-size: 0.8rem;
 }
 
 /* * Main - Recipe generality list rules */
-.fa-list-behavior{
-    margin:0 5px 0 20px;
+.fa-list-behavior {
+    margin: 0 5px 0 20px;
     padding-bottom: 10px;
     color: rgb(247, 151, 46);
 }
 
-.text-list-beahvior{
+.text-list-beahvior {
     font-size: 0.9rem;
+}
+
+/* * Main - social icons rules */
+.social-icons-structure {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.social-icons-container {
+    margin: 25px 10px;
+}
+
+.social-btn {
+    font-size: 1rem;
+    padding: 15px 15px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/** Social icons color */
+.fa-bg-blu {
+    color: rgb(23, 118, 243);
+}
+
+.fa-bg-pink {
+    color: rgb(223, 144, 205);
+}
+
+.fa-bg-red {
+    color: rgb(230, 29, 33);
 }

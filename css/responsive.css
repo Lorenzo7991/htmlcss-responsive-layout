@@ -1,0 +1,31 @@
+/* * Fixed viewport 370px */
+@media screen and (max-width: 371px) {
+    .responsive-hidden-items {
+        display: none;
+    }
+}
+
+
+/* * Fixed viewport 768px */
+@media screen and (min-width: 768px) {
+
+    .main-container {
+        padding: 30px;
+    }
+
+    .header-title {
+        text-align: start;
+        font-size: 2rem;
+    }
+
+    .generality-list-structure {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .social-btn {
+        padding: 8px 45px;
+        border-radius: 20px;
+    }
+}
