@@ -6,6 +6,175 @@
 }
 
 /* * Generics */
+body{
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
 
 
 /* * Utilities */
+.primary-container{
+    width: 100%;
+    margin: 0 auto;
+
+/* ! Temporary rules */
+  border-width: 0 2px; 
+  border-style: solid;
+  border-color:  red;
+}
+
+.main-container{
+    padding: 10px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 5px;
+
+    /* ! Temporary rules */
+    background-color: lightblue;
+}
+
+
+
+
+
+
+/* * Header section */
+.header-title{
+font-family: 'Nerko One', cursive;
+    color: rgb(247, 151, 46);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+
+
+/* * Main section */
+.main-bg-color{
+    background-color: rgb(246, 245, 243);
+}
+
+/* * Main - Header section title rules */
+.header-section-title{
+    color: rgb(213, 192, 173);
+    font-size: 1rem;
+    font-weight: lighter;
+    font-stretch: extra-expanded;
+    padding: 10px 0;
+}
+
+/* * Main - Recipe title/rating section rules */
+.recipe-title-rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px
+}
+
+.recipe-title{
+    color: rgb(78, 57, 105) ;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.recipe-rating{
+    display: flex;
+    align-items: center;
+    line-height: 100%;
+    gap: 3px;
+    font-size: 1.2rem;
+}
+
+.fa-color{
+    color: rgb(247, 151, 46);
+}
+
+.user-rating{
+    font-weight: 800;
+}
+/* * Main - Recipe rating btn "RATE" rules */
+.rating-btn{
+    padding: 5px 12px;
+    background-color: rgb(247, 151, 46);
+    border-radius: 25px;
+
+}
+.rate-link{
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+/* * Main - Recipe info section */
+.section-video-info{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* * Main - Recipe info container rules */
+.container-info-recipe{
+    padding: 10px;
+    
+}
+
+.kcal-infoplus-dietary-container{
+    background-color: rgb(246, 245, 243) ;
+    margin: 20px;
+
+}
+
+.kcal-infoplus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+/* * Top side info recipe rules */
+.like-btn-kcal{
+    color: white;
+    background-color: rgb(123, 105, 162);
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.plus-info{
+    color: rgb(247, 151, 46);
+    font-size: 1.2rem;
+}
+/* * Bottom side info recipe rules */
+.dietary-regime{
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+
+/* * Main - Recipe generality list rules */
+.fa-list-behavior{
+    margin:0 5px 0 20px;
+    padding-bottom: 10px;
+    color: rgb(247, 151, 46);
+}
+
+.text-list-beahvior{
+    font-size: 0.9rem;
+}

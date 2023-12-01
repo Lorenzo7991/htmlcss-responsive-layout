@@ -1,23 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- * Google Fonts link -->
     <link href="https://fonts.googleapis.com/css?family=Nerko+One:regular" rel="stylesheet" />
-
-
+    <!-- * FontAwsome stylesheet link -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'
+        integrity='sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=='
+        crossorigin='anonymous' />
+    <!-- * Local stylesheet links -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    
+    <!-- * Document generality -->
     <link rel="icon" href="assets/img/doc-icon.jpg" type="icon/jpg">
     <title>Giallo Booleano</title>
 </head>
 
 
 <body>
-    
+    <!-- * Generic main container -->
+    <div class="primary-container">
+        <!-- * Header section -->
+        <header id="header-section">
+            <!-- * Header title container -->
+            <div class="header-title">
+                <h1>GIALLO BOOLEANO</h1>
+            </div>
+        </header>
+        <!-- * Main section -->
+        <main id="main-section" class="main-bg-color">
+            <div class="main-container">
+                <!-- * Main header section container -->
+                <header id="main-header-section">
+                    <!-- * Section title -->
+                    <h4 class="header-section-title">DOLCI E DESSERTS</h4>
+                    <!-- * Recipe title/ rating section container -->
+                    <div class="recipe-title-rating">
+                        <!-- * Recipe title -->
+                        <h2 class="recipe-title">Tiramisù</h2>
+                        <!-- * Recipe rating section-->
+                        <div class="recipe-rating">
+                            <i class="fa-solid fa-star fa-color"></i>
+                            <span class="user-rating">4.6</span>
+                            <span class="rate">/5</span>
+                            <!-- * Rating btn "RATE" -->
+                            <div class="btn rating-btn"><a class="rate-link" href="#">RATE</a></div>
+                        </div>
+                    </div>
+                </header>
+                <!-- * General recipe info section -->
+                <section id="recipe-video-info" class="section-video-info">
+                    <!-- * Video import from YT -->
+                    <iframe width="100%" height="250px"
+                        src="https://www.youtube.com/embed/c4-9rR-YxZk?si=en6ckI4TdRcxTnXY" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <!-- * Recipe info container -->
+                    <div class="kcal-infoplus-dietary-container">
+                        <!-- * Info recipe container -->
+                        <div class="container-info-recipe">
+                            <!-- * top info recipe section -->
+                            <div class="kcal-infoplus">
+                                <div class="btn like-btn-kcal">544 Kcal</div>
+                                <span class="plus-info">+ info</span>
+                            </div>
+                            <hr>
+                            <!-- * bottom info recipe section -->
+                            <div class="dietary-regime">
+                                <i class="fa-solid fa-carrot"></i>
+                                <span>VEGETARIANO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- * Generality list with FA icons -->
+                    <div class="recipe-generality-list">
+                        <ul class="generality-list-structure">
+                            <li><i class="fa-list-behavior fa-solid fa-blender"></i><span class="text-list-beahvior">Difficoltà: <strong>Facile</strong></span></li>
+                            <li><i class="fa-list-behavior fa-solid fa-clock"></i><span class="text-list-beahvior">Difficoltà: <strong>Facile</strong></span></li>
+                            <li><i class="fa-list-behavior fa-solid fa-chart-pie"></i><span class="text-list-beahvior">Difficoltà: <strong>Facile</strong></span></li>
+                            <li><i class="fa-list-behavior fa-solid fa-euro-sign"></i><span class="text-list-beahvior">Difficoltà: <strong>Facile</strong></span></li>
+                            <li><i class="fa-list-behavior fa-solid fa-thumbtack"></i><span class="text-list-beahvior"><strong>Note:</strong> +2 ore di riposo in frigo</span></li>
+                        </ul>
+                    </div>
+                </section>
+                        
+                        
+            </div>
 
-    
+
+
+
+
+
+
+        </main>
+    </div>
 </body>
+
 </html>
