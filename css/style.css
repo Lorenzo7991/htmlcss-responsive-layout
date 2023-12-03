@@ -126,7 +126,7 @@ ul {
   height: 300px;
 }
 
-.video-container{
+ iframe, .video-container{
     width: 100%;
     height: 100%;
 }
