@@ -73,13 +73,13 @@
         width: 70%;
     }
     .generality-list-structure{
-        display: contents;
+        display: inline;
     }
     
     .social-btn{
         padding: 8px 35px;
     }
     .responsive-hidden-items {
-        display: contents;
+        display: inline;
     }
     
