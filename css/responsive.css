@@ -7,34 +7,21 @@
     .responsive-hidden-title {
         display: none;
     }
-   
+
     .responsive-hidden-advertise {
         display: none;
     }
-    
+
     .responsive-hidden-items {
         display: none;
     }
-    
-   
+
+
 }
 
-
-@media screen and (min-width: 768px) {
-    .responsive-hidden-title {
-        display: contents;
-    }
-    .responsive-hidden-advertise {
-        display: contents;
-    }
-    
-}
-
-/** Min-widith rules */
-/* ******************************************************** */
 
 /* * Fixed viewport 768px */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
 
     .main-container {
         padding: 30px;
@@ -55,31 +42,67 @@
         padding: 8px 45px;
         border-radius: 20px;
     }
+
+    .fa-brands {
+        padding-right: 5px;
+    }
+
+    .recipe-img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+
+
+    .responsive-hidden-title {
+        display: inline;
+    }
+
+    .responsive-hidden-advertise {
+        display: block;
+        margin-bottom: 20px;
+
+    }
+
 }
 
 /* * Fixed viewport 992+ */
-@media screen and (min-width: 992px){
-    .section-video-info{
+@media screen and (min-width: 992px) {
+    .section-video-info {
         flex-direction: row;
         padding-bottom: 0;
     }
 
-    .section-recipe-info{
+    .section-recipe-info {
         width: 30%;
         padding-bottom: 30px;
     }
-    
-    .section-video{
+
+    .section-video {
         width: 70%;
     }
-    .generality-list-structure{
+
+    .generality-list-structure {
         display: inline;
     }
-    
-    .social-btn{
+
+    .social-btn {
         padding: 8px 35px;
     }
+
     .responsive-hidden-items {
         display: inline;
     }
-    
+
+    #footer-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .commercial-id-location{
+        text-align: left;
+        padding-top: 0;
+    }
+
+
+}

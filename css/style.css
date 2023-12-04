@@ -7,7 +7,7 @@
 
 /* * Generics */
 body {
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 a {
@@ -43,6 +43,12 @@ ul {
     margin: 0 5px;
 
 
+}
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* * Header section */
@@ -204,10 +210,6 @@ ul {
     font-weight: 700;
     font-size: 0.8rem;
     text-transform: uppercase;
-   /*?Don't work...  padding-left: 5px; */
-}
-.fa-brands{
-    padding-right: 5px;
 }
 
 /** Social icons color */
@@ -223,24 +225,69 @@ ul {
     color: rgb(230, 29, 33);
 }
 
-/* * Main - Presentation picture/ text sectione rules */
-.presentation-title-section{
-    position: relative;
-}
 
+
+/* * Main - Presentation picture/ text sectione rules */
 .presentation-title h1{
     padding: 30px 0 10px 0;
     font-size: 1.5rem;
     font-weight: 100;
 }
 
-.presentation-title:after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.line-breaker{
     width: 70px;
+    border: none;
     height: 2px;
-    background-color: rgb(247, 151, 46); 
-    
+    background-color: rgb(247, 151, 46);
+    margin: 5px 0 20px 0;
 }
+
+.recipe-img{
+    max-width: 250px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.presentation-section p{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+
+
+/* * Footer section */
+footer{
+    min-height: 130px;
+    background-color: rgb(124, 105, 164);
+    text-align: center;
+    padding: 0 15px;
+
+}
+
+.commercial-id-location{
+    color: white;
+    padding-top: 15px;
+}
+
+.commercial-id{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.commercial-location{
+    font-size: 0.8rem;
+}
+
+.navigation-footer-structure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.navigation-footer-structure a{
+    color: white;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
